@@ -28,3 +28,17 @@ code {
   --r-heading3-size: 1.5em;
   --r-heading4-size: 1em;
 }
+
+.bottom-left-logo {
+  background-size : 'contain';
+  background-repeat : 'no-repeat';
+  background-position : 'bottom left';
+  position : 'absolute';
+  bottom : '0';
+  left : '0';
+  width : '100px';
+  height : '100px';
+  z-index : '-1';
+  margin : '10px';
+  background-image : 'url("https://raw.githubusercontent.com/Alex-Octocorn/logo/main/octocorn_logo.svg")'
+}
