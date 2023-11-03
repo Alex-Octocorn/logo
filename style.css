@@ -7,15 +7,43 @@
   right: 0;
   z-index: -1;
   opacity: 0.03;
+  background-image: url('https://raw.githubusercontent.com/Alex-Octocorn/logo/main/octocorn_logo.svg');
 }
-    
+
+.bottom-left-logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  z-index: -1;
+  margin: 10px;
+  background-image: url('https://raw.githubusercontent.com/Alex-Octocorn/logo/main/octocorn_logo.svg');
+}
+
+.linux-buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.linux-buttons > svg {
+  margin-left: 10%;
+  width: 200%;
+  height: 200%;
+}
+
 code {
   color: #EB5757;
   background-color: rgba(135,131,120,0.15);
   border-radius: 3px;
   font-size: 85%;
 }
-    
+
 :root {
   --r-background-color: #193549;
   --r-main-color: #99A1B1;
@@ -27,18 +55,4 @@ code {
   --r-heading2-size: 2.em;
   --r-heading3-size: 1.5em;
   --r-heading4-size: 1em;
-}
-
-.bottom-left-logo {
-  background-size : 'contain';
-  background-repeat : 'no-repeat';
-  background-position : 'bottom left';
-  position : 'absolute';
-  bottom : '0';
-  left : '0';
-  width : '100px';
-  height : '100px';
-  z-index : '-1';
-  margin : '10px';
-  background-image : 'url("https://raw.githubusercontent.com/Alex-Octocorn/logo/main/octocorn_logo.svg")'
 }
