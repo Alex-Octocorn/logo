@@ -45,6 +45,10 @@ code {
   font-size: 85%;
 }
 
+.hljs {
+  background: #1B2D3A;
+}
+
 :root {
   --r-background-color: #193549;
   --r-main-color: #99A1B1;
