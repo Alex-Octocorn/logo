@@ -61,3 +61,7 @@ code {
   --r-heading3-size: 1.5em;
   --r-heading4-size: 1em;
 }
+
+.hljs-meta {
+  color: green
+}
